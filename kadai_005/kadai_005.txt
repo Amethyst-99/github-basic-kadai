@@ -1,0 +1,36 @@
+
+C:\Users\User\Works\terakoya\misc\github\samurai-terakoya\samurai>cd C:\Users\User\Works\terakoya\misc\git_challenge
+
+C:\Users\User\Works\terakoya\misc\git_challenge>git init
+Initialized empty Git repository in C:/Users/User/Works/terakoya/misc/git_challenge/.git/
+
+C:\Users\User\Works\terakoya\misc\git_challenge>git add hello_world.txt
+
+C:\Users\User\Works\terakoya\misc\git_challenge>git commit -m "最初のコミット"
+[main (root-commit) 2f58985] 最初のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\User\Works\terakoya\misc\git_challenge>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\User\Works\terakoya\misc\git_challenge>git commit -m "日本語行を追加"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\User\Works\terakoya\misc\git_challenge>git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\User\Works\terakoya\misc\git_challenge>
